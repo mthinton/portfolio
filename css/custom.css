@@ -1,0 +1,84 @@
+.profilePic {
+  border-radius: 50px;
+  display: inline;
+}
+
+.FullStack {
+  display:block;
+  position: absolute;
+  top: 100px;
+}
+
+.Tabful {
+  background-image: url('../img/Claudio.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ingredientsApp {
+  background-image: url('../img/groceries.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.barberShop {
+  background-image: url('../img/barbershop-view-2.jpg');
+  background-position: center;
+  background-size: contain;
+}
+
+.stillInBloom{
+  background-image: url('../img/still_in_bloom_dark_thriller.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 252px;
+}
+
+.liveDemoButton {
+  width: 95px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: #cc5500;
+}
+
+
+.sourceCodeButton {
+  width: 115px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: #cc5500;
+}
+
+.ingredientsApp h4 {
+  color: white
+}
+.ingredientsApp p {
+  color: black
+}
+
+.barberShop p {
+  color: white;
+}
+
+.barberShop h4{
+  color: white
+}
+
+.stillInBloom p {
+  color: white;
+}
+
+.stillInBloom h4 {
+  color: white
+}
+
+.Tabful p {
+  color: grey
+}
+
+.Tabful h4 {
+  color: white
+}

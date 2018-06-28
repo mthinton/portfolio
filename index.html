@@ -6,7 +6,7 @@
 	<meta name="description" content="HALO photography portfolio template">
 	<meta name="keywords" content="photography, portfolio, onepage, creative, html">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Favicon -->   
+	<!-- Favicon -->
 	<link href="img/favicon.ico" rel="shortcut icon"/>
 
 	<!-- Google Fonts -->
@@ -19,6 +19,7 @@
 	<link rel="stylesheet" href="css/animate.css"/>
 	<link rel="stylesheet" href="css/owl.carousel.css"/>
 	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="css/custom.css"/>
 
 
 	<!--[if lt IE 9]>
@@ -35,7 +36,9 @@
 
 	<!-- Header section start -->
 	<header class="header-section sp-pad">
-		<h3 class="site-logo">HALO</h3>
+		<h3 class="site-logo">Matthew Hinton</h3>
+		<img class="profilePic" src="img/profile_pic.jpg">
+		<p class="site-logo FullStack">Web Development</p>
 		<form class="search-top">
 			<button class="se-btn"><i class="fa fa-search"></i></button>
 			<input type="text" placeholder="Search.....">
@@ -46,11 +49,9 @@
 		<nav class="main-menu">
 			<ul>
 				<li><a href="index.html">Home</a></li>
-				<li><a href="about.html">about us</a></li>
-				<li><a href="#">Services</a></li>
-				<li><a href="portfolio.html">Portfolio</a></li>
-				<li><a href="blog.html">Blog</a></li>
-				<li><a href="contact.html">Contact</a></li>
+				<li><a href="#aboutMe">about me</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -60,16 +61,16 @@
 	<!-- Hero section start -->
 	<section class="hero-section">
 		<div class="hero-slider owl-carousel">
-			<div class="hs-item set-bg sp-pad" data-setbg="img/hero-slider/1.jpg">
+			<div class="hs-item set-bg sp-pad" data-setbg="img/hero-slider/Philadelphia2.jpg">
 				<div class="hs-text">
-					<h2 class="hs-title">Halo</h2>
-					<p class="hs-des">We Create Awesome <br>Photographies and more</p>
+					<!-- <h2 class="hs-title">Halo</h2> -->
+					<p class="hs-des">Philadelphia, PA based <br>Full-Stack Web Development</p>
 				</div>
 			</div>
 			<div class="hs-item set-bg sp-pad" data-setbg="img/hero-slider/2.jpg">
 				<div class="hs-text">
-					<h2 class="hs-title">Halo</h2>
-					<p class="hs-des">We Create Awesome <br>Photographies and more</p>
+					<!-- <h2 class="hs-title">Halo</h2> -->
+					<p class="hs-des">Web Applications<br>Using today's latest technologies</p>
 				</div>
 			</div>
 		</div>
@@ -78,18 +79,18 @@
 
 
 	<!-- Intro section start -->
-	<section class="intro-section sp-pad spad">
+	<section id="aboutMe" class="intro-section sp-pad spad">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-xl-4 intro-text">
-					<span class="sp-sub-title">Amazing studio</span>
-					<h3 class="sp-title">We are so Creative</h3>
-					<p>Integer nec bibendum lacus. Suspendisse dictum enim sit amet libero malesuada feugiat. Praesent malesuada congue magna at finibus. In hac habitasse platea dictumst. Curabitur rhoncus auctor eleifend. Fusce venenatis diam urna, eu pharetra arcu varius ac. Etiam cursus turpis lectus, id iaculis risus tempor id.</p>
-					<a href="#" class="site-btn">Read More</a>
+					<span class="sp-sub-title">About Me</span>
+					<h3 class="sp-title">Why do I develop?</h3>
+					<p>Technology, when used properly, can greatly benefit our world. I strive to provide clients with the most current tech languages and truly meeting their demands. There shall be no settling here!</p>
+					<a href="#" class="site-btn">Back to Top</a>
 				</div>
 				<div class="col-xl-7 offset-xl-1">
 					<figure class="intro-img mt-5 mt-xl-0">
-						<img src="img/intro.jpg" alt="">
+						<img src="img/PhillyScience.jpg" alt="">
 					</figure>
 				</div>
 			</div>
@@ -99,9 +100,9 @@
 
 
 	<!-- Portfolio section start -->
-	<section class="portfolio-section">
+	<!-- <section class="portfolio-section">
 		<div class="portfolio-warp">
-			<!-- single item -->
+
 			<div class="single-portfolio set-bg" data-setbg="img/portfolio/1.jpg">
 				<a href="single-work.html" class="portfolio-info">
 					<div class="pfbg set-bg" data-setbg="img/portfolio/1.jpg"></div>
@@ -109,7 +110,7 @@
 					<p>Landscape Photography</p>
 				</a>
 			</div>
-			<!-- single item -->
+
 			<div class="single-portfolio set-bg" data-setbg="img/portfolio/2.jpg">
 				<a href="single-work.html" class="portfolio-info">
 					<div class="pfbg set-bg" data-setbg="img/portfolio/2.jpg"></div>
@@ -117,7 +118,7 @@
 					<p>Landscape Photography</p>
 				</a>
 			</div>
-			<!-- single item -->
+
 			<div class="single-portfolio set-bg" data-setbg="img/portfolio/3.jpg">
 				<a href="single-work.html" class="portfolio-info">
 					<div class="pfbg set-bg" data-setbg="img/portfolio/3.jpg"></div>
@@ -125,7 +126,7 @@
 					<p>Landscape Photography</p>
 				</a>
 			</div>
-			<!-- single item -->
+
 			<div class="single-portfolio sm-wide set-bg" data-setbg="img/portfolio/4.jpg">
 				<a href="single-work.html" class="portfolio-info">
 					<div class="pfbg set-bg" data-setbg="img/portfolio/4.jpg"></div>
@@ -133,7 +134,7 @@
 					<p>Landscape Photography</p>
 				</a>
 			</div>
-			<!-- single item -->
+
 			<div class="single-portfolio sm-wide set-bg " data-setbg="img/portfolio/5.jpg">
 				<a href="single-work.html" class="portfolio-info">
 					<div class="pfbg set-bg" data-setbg="img/portfolio/5.jpg"></div>
@@ -141,7 +142,7 @@
 					<p>Landscape Photography</p>
 				</a>
 			</div>
-			<!-- single item -->
+
 			<div class="single-portfolio set-bg" data-setbg="img/portfolio/6.jpg">
 				<a href="single-work.html" class="portfolio-info">
 					<div class="pfbg set-bg" data-setbg="img/portfolio/6.jpg"></div>
@@ -149,7 +150,7 @@
 					<p>Landscape Photography</p>
 				</a>
 			</div>
-			<!-- single item -->
+
 			<div class="single-portfolio sm-wide md-w-100 set-bg " data-setbg="img/portfolio/7.jpg">
 				<a href="single-work.html" class="portfolio-info">
 					<div class="pfbg set-bg" data-setbg="img/portfolio/7.jpg"></div>
@@ -159,12 +160,12 @@
 			</div>
 		</div>
 		<div class="clearfix"></div>
-	</section>
+	</section> -->
 	<!-- Portfolio section end -->
 
 
 	<!-- Milestones section start -->
-	<section class="milestones-section spad">
+	<!-- <section class="milestones-section spad">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3 col-md-6 fact-box">
@@ -197,18 +198,18 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!-- Milestones section end -->
 
 
 	<!-- Services section start -->
-	<section class="services-section spad">
+	<section id="portfolio" class="services-section spad">
 		<div class="container-fluid services-warp">
 			<div class="services-text">
 				<div class="container p-0">
-				<span class="sp-sub-title">Amazing studio</span>
-					<h3 class="sp-title">see What we offer</h3>
-					<p>Integer nec bibendum lacus. Suspendisse dictum enim sit amet libero malesuada feugiat. Praesent malesuada congue magna at finibus. In hac habi tasse platea dictumst. Curabitur rhoncus auctor eleifend.</p>
+				<span class="sp-sub-title">Portfolio</span>
+					<h3 class="sp-title">Current Apps in Development</h3>
+					<p>Have a look at some completed and still in Development Apps I created.</p>
 					<a href="#" class="site-btn">Read More</a>
 				</div>
 			</div>
@@ -217,69 +218,86 @@
 					<div class="col-xl-8 offset-xl-4">
 						<div class="row">
 							<div class="col-md-6">
-								<div class="icon-box">
-									<i class="flaticon-video-camera"></i>
-									<h4>Video Footages</h4>
-									<p>Suspendisse dictum enim sit amet libero feugiat. Praesent malesuada congue magna at finibus. In hac habitasse platea dictumst. </p>
+								<div class="icon-box Tabful">
+									<!-- <i class="flaticon-video-camera"></i> -->
+									<h4>Tabful</h4>
+									<p>A front-end app that makes finding guitar, bass and drum tablature that much easier. <br>
+										Allows you to play along live to your favorite songs in real time using Songsterr's API<br>
+										No messy tabs ever again.
+										HTML, CSS, Javascript and jQuery
+									</p>
+									<a href="https://mthintoncoding.github.io/Songsterr_Guitar_and_Bass_Tabs/" target="_blank"><button class="liveDemoButton">Live Demo</button></a>
+			            <a href="https://github.com/mthintoncoding/Songsterr_Guitar_and_Bass_Tabs" target="_blank"><button class="sourceCodeButton">Source Code</button></a>
 								</div>
 							</div>
 							<div class="col-md-6">
-								<div class="icon-box">
-									<i class="flaticon-photo-camera"></i>
-									<h4>Photo Shootings</h4>
-									<p>Congue magna at finibus. In hac habitasse platea dictumst. Curabitur rhoncus auctor eleifend. Fusce venenatis diam urna, eu pharetra arcu.</p>
+								<div style="display: block" class="icon-box ingredientsApp">
+									<!-- <i class="flaticon-photo-camera"></i> -->
+									<h4>Ingredients App</h4>
+									<p>This back-end app was created with the idea for an app that allows a user to search by specific ingredients<br>
+									Node.js/Express and MongoDB/Mongoose are utilized here to store users and their saved recipes. Check it out, you might find one you like!</p>
+									<a href="https://github.com/mthintoncoding/Ingredients_App" target="_blank"><button class="sourceCodeButton">Source Code</button></a>
 								</div>
 							</div>
 							<div class="col-md-6">
-								<div class="icon-box">
-									<i class="flaticon-safebox"></i>
-									<h4>photo albums</h4>
-									<p>Integer nec bibendum lacus. Suspendisse dictum enim sit amet libero malesuada feugiat. Praesent malesuada congue magna at finibus. </p>
+								<div class="icon-box barberShop">
+									<!-- <i class="flaticon-safebox"></i> -->
+									<h4>Barber Shop Scheduling App... Now introducing React Calendar!</h4>
+									<p>This app, is for a Philadelphia, PA based barber to use to schedule and keep track of current clients with a visual calendar tool.<br>
+										React.js on the front-end and Node.js on the back.
+									</p>
+									<a href="https://barbershopapp2.herokuapp.com/" target="_blank"><button class="liveDemoButton">Live Demo</button>
+				          <a href="https://github.com/mthintoncoding/barberShopApp2" target="_blank"><button class="sourceCodeButton">Source Code</button></a>
+				        </div>
 								</div>
+								<div class="col-md-6">
+									<div class="icon-box stillInBloom"> -->
+										<!-- <i class="flaticon-idea"></i> -->
+										<h4>Still In Bloom | A Film</h4>
+										<p>Website designed for Haban Media Works to advertise their newest film, a dark thriller titled, "Still In Bloom". <br>
+										HTML and CSS only</p>
+										<a href="https://barbershopapp2.herokuapp.com/" target="_blank"><button class="liveDemoButton">Live Demo</button>
+					          <a href="https://github.com/mthintoncoding/NewFilmSite" target="_blank"><button class="sourceCodeButton">Source Code</button></a>
+					        </div>
+									</div>
 							</div>
-							<div class="col-md-6">
-								<div class="icon-box">
-									<i class="flaticon-idea"></i>
-									<h4>Original ideas</h4>
-									<p>Praesent malesuada congue magna at finibus. In hac habitasse platea dictumst. Curabitur rhoncus auctor eleifend. Fusce venenatis diam urna.</p>
-								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="service-more-link">
-			<a href="#" class="arrow-btn">
+		<!-- <div class="service-more-link">
+
 				<i class="fa fa-angle-right"></i>
 				<i class="fa fa-angle-right"></i>
 				<i class="fa fa-angle-right"></i>
 			</a>
-		</div>
+		</div> -->
 	</section>
 	<!-- Services section start end -->
 
 
 	<!-- Contact section start -->
-	<section class="contact-section set-bg spad" data-setbg="img/contact-bg.jpg">
+	<section id="contact" class="contact-section set-bg spad" data-setbg="img/contact-bg.jpg">
 		<div class="container-fluid contact-warp">
 			<div class="contact-text">
 				<div class="container p-0">
-					<span class="sp-sub-title">Amazing studio</span>
+					<span class="sp-sub-title">Contact</span>
 					<h3 class="sp-title">Stay in touch</h3>
-					<p>Integer nec bibendum lacus. Suspendisse dictum enim sit amet libero malesuada feugiat. Praesent malesuada congue magna at finibus. In hac habi tasse platea dictumst. Curabitur rhoncus auctor eleifend.</p>
+					<p>Any requests queries, feedback, collaborations please fill out the form below and I will be in close contact</p>
 
 					<ul class="con-info">
-						<li><i class="flaticon-phone-call"></i>+45 677 8993000 223</li>
-						<li><i class="flaticon-envelope"></i>office@template.com</li>
-						<li><i class="flaticon-placeholder"></i>Main Str. no 45-46, b3, 56832,<br> Los Angeles, CA</li>
+						<li><i class="flaticon-phone-call"></i>+1 919 356 2490</li>
+						<li><i class="flaticon-envelope"></i>mthinton@gmail.com</li>
+						<li><i class="flaticon-placeholder"></i>399 Market str.19122,<br> Philadelphia, PA</li>
 					</ul>
 				</div>
 			</div>
 			<div class="container p-0">
 				<div class="row">
 					<div class="col-xl-8 offset-xl-4">
-						<form class="contact-form">
+						<form action="mailto:mthinton@gmail.com" class="contact-form">
 							<div class="row">
 								<div class="col-md-6">
 									<input type="text" placeholder="Your name">
@@ -306,12 +324,12 @@
 	<footer class="footer-section spad">
 		<div class="container text-center">
 			<h2>Let’s work together!</h2>
-			<p>office@template.com</p>
+			<p>mthinton@gmail.com</p>
 			<div class="social">
-				<a href="#"><i class="fa fa-pinterest"></i></a>
-				<a href="#"><i class="fa fa-facebook"></i></a>
-				<a href="#"><i class="fa fa-twitter"></i></a>
-				<a href="#"><i class="fa fa-dribbble"></i></a> </br>
+				<a target="_blank" href="https://www.facebook.com/mthinton"><i class="fa fa-facebook"></i></a>
+				<!-- <a href="https://www.instagram.com/mthinton1/" target="_blank"><img class="fa instagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Instagram_simple_icon.svg/1000px-Instagram_simple_icon.svg.png"></a> -->
+				<!-- <a href="https://www.linkedin.com/in/matt-hinton-5a8b174" target="_blank"><img class="fa linkedIn" src="https://www.pirum.com/wp-content/themes/pirum/img/linkedin2.png"></a> -->
+				<!-- <a href="https://github.com/mthintoncoding" target="_blank"><img class="fa github" src="http://www.amrutac.com/images/github.svg"></a> -->
 
 
 </br><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
