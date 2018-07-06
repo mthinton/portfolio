@@ -82,3 +82,7 @@
 .Tabful h4 {
   color: white
 }
+
+.tabful-still h4 {
+  padding-top: 10px;
+}
