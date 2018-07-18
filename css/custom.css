@@ -29,13 +29,9 @@
   background-size: contain;
 }
 
-.stillInBloom{
-  background-image: url('../img/still_in_bloom_dark_thriller.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 252px;
-}
+/*.still-in-bloom-link {
+  width: 300px;
+}*/
 
 .liveDemoButton {
   width: 95px;
